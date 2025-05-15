@@ -1,6 +1,0 @@
-title,description,agentEmail
-Fix Login Bug,Resolve user login issue with JWT,john@example.com
-Update Landing Page,Redesign hero section of home page,alice@example.com
-Database Backup,Create daily backup script,bob@example.com
-Optimize API,Improve response time for /users endpoint,john@example.com
-Write Unit Tests,Add tests for auth routes,alice@example.com
