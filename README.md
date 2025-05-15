@@ -30,15 +30,19 @@ This is a MERN stack application to manage agents, allowing admin login, agent c
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/project-name.git
-cd project-name
+git clone https://github.com/Ammanya/agent-management-system
+cd mern-machine-test
 
 2. Backend Setup
 
 cd backend
 npm install
 cp .env.example .env
-# Fill in your MongoDB URI and JWT secret in .env
+⚠️ Now open the .env file and add the following environment variables:
+
+PORT=5000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret_key
 
 npm run dev
 
